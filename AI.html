@@ -27,6 +27,7 @@
 
     <h2>AI</h2>
     <div>Welcome to the AI item reader! This can read a ruler, a Pokemon Card, and a Graphing Calculator! Hold it up to the camera and test it out!</div>
+    
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
@@ -34,7 +35,7 @@
       // Classifier Variable
       let classifier;
       // Model URL
-      let imageModelURL = './my_model/';
+      let imageModelURL = 'https://teachablemachine.withgoogle.com/models/Y1qG8unYm/';
 
       // Video
       let video;
@@ -93,6 +94,7 @@
         classifyVideo();
       }
     </script>
+
   
   </div>
 
